@@ -11,6 +11,14 @@ Try the live demo deployed on Netlify:
 
 (Use the demo login / seed data to explore the app quickly.)
 
+
+## 📁 Repository & Branch
+The project files are stored in a **separate branch** (not `main`) in the GitHub repository. View the project README and files here:
+
+**Branch & link:** `synergysphere` branch — https://github.com/Mr-Spectr/Synergy/blob/synergysphere/Desktop/synergysphere/README.md
+
+This branch contains the full project files (client-side source, assets, and README) separated from the `main` branch for cleaner demo/versioning.
+
 ---
 
 ## ✨ Features
@@ -109,4 +117,4 @@ synergysphere/
 
 ## 👥 Credits
 
-Built with ❤️ for **Hackathon 2025** by [Your Team Name].
+Built with ❤️ for **Hackathon 2025** by ARBITER.
