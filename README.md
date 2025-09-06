@@ -4,6 +4,15 @@ Welcome to **SynergySphere**, an intelligent and fun **team collaboration MVP** 
 
 ---
 
+## 🔗 Live Demo
+Try the live demo deployed on Netlify:
+
+**Demo link:** https://synergysphere-app.netlify.app/auth
+
+(Use the demo login / seed data to explore the app quickly.)
+
+---
+
 ## ✨ Features
 
 - 🔑 **Demo Login** (no backend required)
@@ -52,6 +61,8 @@ npm install
 npm run dev
 ```
 
+**Or try the hosted demo right now:** https://synergysphere-app.netlify.app/auth
+
 ---
 
 ## 🛠️ Tech Stack
@@ -98,4 +109,4 @@ synergysphere/
 
 ## 👥 Credits
 
-Built with ❤️ for **Hackathon 2025** by team ARBITER .
+Built with ❤️ for **Hackathon 2025** by [Your Team Name].
