@@ -8,7 +8,7 @@ SynergySphere is a React + Vite frontend-first team collaboration platform (Trel
 
 **GitHub Repository:** https://github.com/Mr-Spectr/Synergy
 
-**Branch:** `blackboxai/synergysphere`
+**Branch:** `synergysphere`
 
 ## Getting Started
 
