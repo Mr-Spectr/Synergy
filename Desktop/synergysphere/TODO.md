@@ -10,6 +10,7 @@
 - [x] Fixed profile button to show user credentials
 - [x] Built and deployed to Netlify
 - [x] Updated README with deployment information
+- [x] Pushed all changes to GitHub repository
 - [x] Server setup with basic auth endpoints
 - [x] Demo login functionality
 - [x] Create vite.config.js
