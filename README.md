@@ -98,4 +98,4 @@ synergysphere/
 
 ## 👥 Credits
 
-Built with ❤️ for **Hackathon 2025** by .
+Built with ❤️ for **Hackathon 2025** by team ARBITER .
