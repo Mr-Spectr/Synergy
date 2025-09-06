@@ -6,6 +6,8 @@ SynergySphere is a React + Vite frontend-first team collaboration platform (Trel
 
 **Netlify Deployment:** https://synergysphere-app.netlify.app
 
+**Unique Deploy URL:** https://68bc195d5692b915fa178d76--synergysphere-app.netlify.app
+
 **GitHub Repository:** https://github.com/Mr-Spectr/Synergy
 
 **Branch:** `synergysphere`

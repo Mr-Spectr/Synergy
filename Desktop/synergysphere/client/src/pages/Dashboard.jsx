@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getProjects, getCurrentUser } from '../services/api';
 import ProjectCard from '../components/ProjectCard';
+import ProjectEditor from '../components/ProjectEditor';
 
 export default function Dashboard() {
   const [projects, setProjects] = useState([]);

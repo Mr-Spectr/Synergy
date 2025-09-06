@@ -5,6 +5,13 @@
 - [x] Basic React app structure (main.jsx, App.jsx, index.css)
 - [x] Placeholder pages (Auth, Dashboard, ProjectRoom)
 - [x] README.md and .gitignore
+- [x] Fixed task creation functionality
+- [x] Fixed theme toggle functionality
+- [x] Fixed profile button to show user credentials
+- [x] Built and deployed to Netlify
+- [x] Updated README with deployment information
+- [x] Server setup with basic auth endpoints
+- [x] Demo login functionality
 - [x] Create vite.config.js
 - [x] Create postcss.config.js and tailwind.config.js
 - [x] Create index.html
