@@ -11,6 +11,10 @@
 - [x] Built and deployed to Netlify
 - [x] Updated README with deployment information
 - [x] Pushed all changes to GitHub repository
+- [x] Fixed task persistence across sessions (localStorage)
+- [x] Added edit/delete functionality to tasks
+- [x] Added move buttons to change task status (To Do → In Progress → Done)
+- [x] Fixed TaskEditor to properly save new and edited tasks
 - [x] Server setup with basic auth endpoints
 - [x] Demo login functionality
 - [x] Create vite.config.js

@@ -1,4 +1,4 @@
-const USE_API = true; // Toggle between localStorage and API mode
+const USE_API = false; // Toggle between localStorage and API mode
 
 const API_BASE_URL = 'http://localhost:4000';
 

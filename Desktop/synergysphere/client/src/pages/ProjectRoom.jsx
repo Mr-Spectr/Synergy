@@ -36,7 +36,13 @@ export default function ProjectRoom() {
       updatedTasks = allTasks.filter(t => t.id !== updatedTask.id);
     } else {
       // Update or add task
-      updatedTasks = allTasks.map(t => t.id === updatedTask.id ? updatedTask : t);
+      const existingIndex = allTasks.findIndex(t => t.id === updatedTask.id);
+      if (existingIndex !== -1) {
+        updatedTasks = [...allTasks];
+        updatedTasks[existingIndex] = updatedTask;
+      } else {
+        updatedTasks = [...allTasks, updatedTask];
+      }
     }
 
     await saveTasks(updatedTasks);
@@ -69,12 +75,15 @@ export default function ProjectRoom() {
       {showTaskEditor && (
         <TaskEditor
           project={project}
-          onClose={() => setShowTaskEditor(false)}
-          onSave={async (newTask) => {
-            const updatedTasks = [...tasks, newTask];
-            await saveTasks(updatedTasks);
-            setTasks(updatedTasks);
+          task={editingTask}
+          onClose={() => {
             setShowTaskEditor(false);
+            setEditingTask(null);
+          }}
+          onSave={async (taskData) => {
+            await handleUpdateTask(taskData);
+            setShowTaskEditor(false);
+            setEditingTask(null);
           }}
         />
       )}

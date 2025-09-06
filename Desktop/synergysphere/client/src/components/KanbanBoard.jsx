@@ -54,8 +54,8 @@ export default function KanbanBoard({ projectId, tasks, onUpdateTask, onEditTask
                 <div key={taskId} className="mb-2">
                   <TaskCard
                     task={task}
-                    onEdit={handleEditTask}
-                    onDelete={handleDeleteTask}
+                    onEdit={() => onEditTask(task)}
+                    onDelete={() => handleDeleteTask(task.id)}
                     onMove={handleMoveTask}
                   />
                 </div>
